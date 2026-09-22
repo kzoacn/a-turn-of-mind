@@ -1,6 +1,31 @@
 {
-  "status": "awaiting_initial_deployment",
+  "status": "built",
   "repository": "https://github.com/kzoacn/a-turn-of-mind",
   "site": "https://kzoacn.github.io/a-turn-of-mind/",
-  "source": { "branch": "main", "path": "/" }
+  "visibility": "public",
+  "https_enforced": true,
+  "source": {
+    "branch": "main",
+    "path": "/"
+  },
+  "verified_source_commit": "8ee41cfdfaf47d5ab4d6aa9a564bc9d9c09ebbfc",
+  "deployment_run": "https://github.com/kzoacn/a-turn-of-mind/actions/runs/35733523186",
+  "online_smoke": {
+    "passed": true,
+    "checks": 32,
+    "url": "https://kzoacn.github.io/a-turn-of-mind/",
+    "source_commit": "8ee41cfdfaf47d5ab4d6aa9a564bc9d9c09ebbfc",
+    "verified_at": "2026-09-22T13:29:29.775Z",
+    "level_count": 100,
+    "played_levels": [
+      1,
+      51,
+      100
+    ],
+    "assets_match_source": true,
+    "anonymous_access": true,
+    "mobile": true,
+    "save_reload": true,
+    "errors": []
+  }
 }

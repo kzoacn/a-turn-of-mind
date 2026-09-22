@@ -20,4 +20,6 @@ gh api repos/kzoacn/a-turn-of-mind/pages --jq '{status, html_url, source}'
 
 线上进度保存在访问者自己的浏览器中。`file://`、`localhost` 与 GitHub Pages 属于不同存储来源，所以本地进度不会自动出现在在线版中。游戏内的“导出试玩记录”仍只下载本地文件。
 
-在线验收会检查匿名访问、资源请求、关卡入口、实际通关、窄屏布局和刷新后的存档延续。部署的最终状态记录在 [pages-validation.json](pages-validation.json)。
+在线验收已通过 32 项检查，包括匿名访问、九项资源与源码逐字节一致、第 1、51、100 关实际通关、窄屏布局和刷新后的存档延续。GitHub 部署成功并启用 HTTPS；这次验收的提交与运行记录见 [pages-validation.json](pages-validation.json)。
+
+安装 README 中的 Playwright 浏览器依赖后，可运行 `node tests/pages_smoke.cjs` 重做在线验收。默认测试上面的 GitHub Pages 地址；环境变量 `TURN_OF_MIND_URL` 可改为本地或预览地址。检查会逐字节核对九项网页资源，并实际通关第 1、51、100 关，结果写入 `test-results/pages/`。
