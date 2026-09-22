@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f3f0e7">
+  <meta name="description" content="转念之间 A Turn of Mind：一百件小机关，十间借位工坊。借一个位置，换一种想法。">
+  <title>转念之间 · A Turn of Mind</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="web-native/styles.css">
+  <script defer src="web-native/levels.js"></script>
+  <script defer src="web-native/engine.js"></script>
+  <script defer src="web-native/render.js"></script>
+  <script defer src="web-native/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="转念之间，回到第一件机关"><img src="assets/icon.svg" width="44" height="44" alt=""><span>转念之间<small>A TURN OF MIND</small></span></a>
+    <p class="header-poem">借一个位置，换一种想法。</p>
+    <div class="header-actions"><button id="sound-toggle" class="quiet-button" aria-pressed="true">声音 开</button><button id="motion-toggle" class="quiet-button" aria-pressed="false">舒缓动画</button><button id="help-button" class="quiet-button">怎么玩 <span class="keycap">?</span></button></div>
+  </header>
+  <main class="app-shell">
+    <aside class="cabinet" aria-label="机关展柜">
+      <div class="cabinet-heading"><span class="eyebrow">THE LITTLE COLLECTION</span><h2>机关收藏</h2><p id="collection-progress">0 / 100 件已点亮</p></div>
+      <div id="collection-tabs" class="collection-tabs" role="tablist" aria-label="选择工坊">
+        <button class="collection-tab" data-collection="0" role="tab" aria-selected="true" aria-controls="level-list">初见<small>01–10</small></button>
+        <button class="collection-tab" data-collection="1" role="tab" aria-selected="false" aria-controls="level-list">巧思<small>11–20</small></button>
+        <button class="collection-tab" data-collection="2" role="tab" aria-selected="false" aria-controls="level-list">回响<small>21–30</small></button>
+        <button class="collection-tab" data-collection="3" role="tab" aria-selected="false" aria-controls="level-list">织路<small>31–40</small></button>
+        <button class="collection-tab" data-collection="4" role="tab" aria-selected="false" aria-controls="level-list">归藏<small>41–50</small></button>
+        <button class="collection-tab" data-collection="5" role="tab" aria-selected="false" aria-controls="level-list">合拍<small>51–60</small></button>
+        <button class="collection-tab" data-collection="6" role="tab" aria-selected="false" aria-controls="level-list">折光<small>61–70</small></button>
+        <button class="collection-tab" data-collection="7" role="tab" aria-selected="false" aria-controls="level-list">游园<small>71–80</small></button>
+        <button class="collection-tab" data-collection="8" role="tab" aria-selected="false" aria-controls="level-list">织星<small>81–90</small></button>
+        <button class="collection-tab" data-collection="9" role="tab" aria-selected="false" aria-controls="level-list">归一<small>91–100</small></button>
+      </div>
+      <nav id="level-list" aria-label="选择关卡"></nav>
+      <div class="cabinet-footer"><span class="tiny-spark">✦</span><p>卡住的时候，<br>换一件也很好。</p><button id="export-button" class="text-button">导出试玩记录 <span aria-hidden="true">↗</span></button></div>
+    </aside>
+    <section class="play-area" aria-label="工坊工作台">
+      <div class="level-heading"><div><p id="level-chapter" class="eyebrow"></p><h1 id="level-title"></h1><p id="level-subtitle" class="subtitle"></p></div><div id="level-stamp" class="level-stamp" aria-hidden="true">01</div></div>
+      <div class="play-grid">
+        <div class="stage-column">
+          <div id="stage" class="stage" aria-busy="false">
+            <div class="stage-topline"><span id="stage-tag"></span><span class="stage-flower" aria-hidden="true">✧</span></div>
+            <svg id="board" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="当前机关"></svg>
+            <div id="stage-caption" class="stage-caption">指向下方把手，看看颜色会去哪里</div>
+            <div id="success-ribbon" class="success-ribbon" hidden><span>✦</span> 修好了 <span>✦</span></div>
+          </div>
+          <div id="tools" class="tools" aria-label="机关把手"></div>
+          <div class="workbench-footer"><div class="history-buttons"><button id="undo-button" class="small-button" title="撤销 Z">↶ <span>撤销</span><kbd>Z</kbd></button><button id="redo-button" class="small-button" title="重做 Y">↷ <span>重做</span><kbd>Y</kbd></button><button id="reset-button" class="small-button" title="重来 R">↺ <span>重来</span><kbd>R</kbd></button></div><span id="move-count">0 次拨动</span></div>
+          <p id="local-status" class="local-status">随时撤销，安心试试。进度只保存在这台设备。</p>
+        </div>
+        <aside class="side-column" aria-label="目标与提示">
+          <section class="target-card"><div class="card-heading"><h2>复原图样</h2><span class="target-pin" aria-hidden="true">●</span></div><p class="card-subtitle">让每种颜色，回到自己的位置</p><svg id="target-board" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="目标图样"></svg><div class="target-progress"><span id="matched-count"></span><div id="match-dots" aria-hidden="true"></div></div><button id="peek-button" class="peek-button" aria-pressed="false">按住叠看图样 <kbd>空格</kbd></button></section>
+          <section class="hint-card"><div class="card-heading"><h2 id="hint-title">工坊便笺</h2><span aria-hidden="true">⌁</span></div><p id="hint-copy">正确的颜色也可以暂时离开。只需最后归位。</p><button id="hint-button" class="text-button">给我一点提示 <kbd>H</kbd></button></section>
+          <section id="completion-card" class="completion-card" hidden aria-live="polite"><span class="eyebrow">A LITTLE DISCOVERY</span><p id="discovery"></p><button id="next-button" class="primary-button">下一件机关 <span>→</span></button></section>
+          <button id="notes-button" class="notes-button"><span class="notes-icon" aria-hidden="true">⌗</span><span>翻开机关手记<small>关于结构的小秘密</small></span><span aria-hidden="true">↗</span></button>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>十间工坊，百件巧思。</span><span>转念之间 · 借位工坊里的小小结构展</span></footer>
+  <dialog id="info-dialog"><button id="dialog-close" class="dialog-close" aria-label="关闭">×</button><span class="eyebrow">NOTES FROM THE WORKSHOP</span><h2 id="dialog-title"></h2><div id="dialog-body"></div><button id="dialog-return" class="primary-button">回到工坊</button></dialog>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">请启用 JavaScript，打开这间小工坊。</p></noscript>
+</body>
+</html>

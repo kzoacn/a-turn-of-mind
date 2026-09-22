@@ -1,0 +1,6 @@
+{
+  "status": "awaiting_initial_deployment",
+  "repository": "https://github.com/kzoacn/a-turn-of-mind",
+  "site": "https://kzoacn.github.io/a-turn-of-mind/",
+  "source": { "branch": "main", "path": "/" }
+}

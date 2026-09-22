@@ -1,0 +1,2786 @@
+[
+  {
+    "number": 1,
+    "id": "first_breeze",
+    "group": "C₅",
+    "group_order": 5,
+    "shortest": 2,
+    "diameter": 2,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      }
+    ],
+    "intent": "两次轻巧的转动建立手感。用悬停轨迹与单色追踪教规则。"
+  },
+  {
+    "number": 2,
+    "id": "mirror_bloom",
+    "group": "D₅",
+    "group_order": 10,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      }
+    ],
+    "intent": "沿用上一关的五瓣轮，新增一个一眼能读懂的反射动作。"
+  },
+  {
+    "number": 3,
+    "id": "two_gardens",
+    "group": "C₃ × C₃",
+    "group_order": 9,
+    "shortest": 2,
+    "diameter": 2,
+    "certificate": [
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      }
+    ],
+    "intent": "一关舒展的独立控制，给下一关的联动反转建立直觉。"
+  },
+  {
+    "number": 4,
+    "id": "shared_breeze",
+    "group": "C₃ × C₃",
+    "group_order": 9,
+    "shortest": 2,
+    "diameter": 2,
+    "certificate": [
+      {
+        "op": "together",
+        "direction": 1
+      },
+      {
+        "op": "apart",
+        "direction": 1
+      }
+    ],
+    "intent": "相同位置、相同群、不同生成元。两步抵消带来第一处明确的巧思。"
+  },
+  {
+    "number": 5,
+    "id": "three_leaf_knot",
+    "group": "A₄",
+    "group_order": 12,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "upper",
+        "direction": 1
+      },
+      {
+        "op": "lower",
+        "direction": -1
+      },
+      {
+        "op": "upper",
+        "direction": 1
+      }
+    ],
+    "intent": "用三枚轮换合成两对交换，体验操作合成的意外效果；三角丝带明确显示作用范围。"
+  },
+  {
+    "number": 6,
+    "id": "borrowed_scissors",
+    "group": "S₄",
+    "group_order": 24,
+    "shortest": 5,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "swap",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      }
+    ],
+    "intent": "固定交换工具配合全局转盘，构成可直觉理解的共轭。"
+  },
+  {
+    "number": 7,
+    "id": "transfer_station",
+    "group": "S₄",
+    "group_order": 24,
+    "shortest": 3,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "west",
+        "direction": 1
+      },
+      {
+        "op": "east",
+        "direction": 1
+      },
+      {
+        "op": "west",
+        "direction": 1
+      }
+    ],
+    "intent": "同一群、同一目标，换生成元与布局；5 步转盘题变成 3 步中转题。"
+  },
+  {
+    "number": 8,
+    "id": "moving_greenhouse",
+    "group": "C₃ ≀ C₂",
+    "group_order": 18,
+    "shortest": 3,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "exchange",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "exchange",
+        "direction": 1
+      }
+    ],
+    "intent": "把借位扩大到整组结构；整间花房沿相反的圆弧交换，保持组内朝向。"
+  },
+  {
+    "number": 9,
+    "id": "far_side_moon",
+    "group": "Q₈",
+    "group_order": 8,
+    "shortest": 2,
+    "diameter": 2,
+    "certificate": [
+      {
+        "op": "moon",
+        "direction": 1
+      },
+      {
+        "op": "moon",
+        "direction": 1
+      }
+    ],
+    "intent": "八枚独色徽章的繁复外观藏着两步解，作为终关前的轻巧惊喜；不以群阶制造难度。"
+  },
+  {
+    "number": 10,
+    "id": "only_a_breeze",
+    "group": "S₇",
+    "group_order": 5040,
+    "shortest": 4,
+    "diameter": 14,
+    "certificate": [
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": -1
+      },
+      {
+        "op": "left",
+        "direction": -1
+      }
+    ],
+    "intent": "以可见的局部变化收束全篇；7! 个可达状态中的四步小魔术。"
+  },
+  {
+    "number": 11,
+    "id": "two_mirrors",
+    "group": "D₆",
+    "group_order": 12,
+    "shortest": 4,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "slanted",
+        "direction": 1
+      },
+      {
+        "op": "upright",
+        "direction": 1
+      },
+      {
+        "op": "slanted",
+        "direction": 1
+      },
+      {
+        "op": "upright",
+        "direction": 1
+      }
+    ],
+    "intent": "把第一间的旋转换成两面可见的镜轴，让四步解来自发现动作的组合。"
+  },
+  {
+    "number": 12,
+    "id": "three_doors",
+    "group": "C₂ × C₂ × C₂",
+    "group_order": 8,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "across",
+        "direction": 1
+      },
+      {
+        "op": "height",
+        "direction": 1
+      },
+      {
+        "op": "depth",
+        "direction": 1
+      }
+    ],
+    "intent": "把独立控制放到立体线框上；八枚颜色由三个互不干扰的方向决定。"
+  },
+  {
+    "number": 13,
+    "id": "palm_constellation",
+    "group": "S₄",
+    "group_order": 24,
+    "shortest": 3,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "tilt",
+        "direction": 1
+      },
+      {
+        "op": "yaw",
+        "direction": -1
+      },
+      {
+        "op": "tilt",
+        "direction": -1
+      }
+    ],
+    "intent": "与上一关共用八点线框，改为真正的三维旋转投影，体验同一外形上的另一套规则。"
+  },
+  {
+    "number": 14,
+    "id": "two_and_three",
+    "group": "C₆",
+    "group_order": 6,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "beat",
+        "direction": 1
+      },
+      {
+        "op": "beat",
+        "direction": 1
+      },
+      {
+        "op": "beat",
+        "direction": 1
+      }
+    ],
+    "intent": "空间题之后安排一个短小的周期关，摆动和花轮使用不同的可见节拍。"
+  },
+  {
+    "number": 15,
+    "id": "four_stations",
+    "group": "C₂ ≀ C₄",
+    "group_order": 64,
+    "shortest": 6,
+    "diameter": 8,
+    "certificate": [
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "service",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "service",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      }
+    ],
+    "intent": "从单次共轭延伸到沿途处理两个局部任务，鼓励把借位行程连起来。"
+  },
+  {
+    "number": 16,
+    "id": "roundabout_post",
+    "group": "AGL(1,5)",
+    "group_order": 20,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "wind",
+        "direction": 1
+      },
+      {
+        "op": "post",
+        "direction": 1
+      },
+      {
+        "op": "wind",
+        "direction": 1
+      }
+    ],
+    "intent": "中心与外圈的作用范围不同，用折返路线形成一处非对称的三步巧解。"
+  },
+  {
+    "number": 17,
+    "id": "five_petals",
+    "group": "A₅",
+    "group_order": 60,
+    "shortest": 5,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "flower",
+        "direction": 1
+      },
+      {
+        "op": "knot",
+        "direction": 1
+      },
+      {
+        "op": "flower",
+        "direction": -1
+      },
+      {
+        "op": "knot",
+        "direction": -1
+      },
+      {
+        "op": "flower",
+        "direction": 1
+      }
+    ],
+    "intent": "全局转花配合局部三循环，准备下一关同群同目标的操作对照。"
+  },
+  {
+    "number": 18,
+    "id": "butterfly_knot",
+    "group": "A₅",
+    "group_order": 60,
+    "shortest": 6,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "right",
+        "direction": -1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      }
+    ],
+    "intent": "把相同的双换位目标放进两个共享位置的三循环，提供与整花工具不同的思考方式。"
+  },
+  {
+    "number": 19,
+    "id": "three_room_shift",
+    "group": "C₂ ≀ S₃",
+    "group_order": 48,
+    "shortest": 5,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "seats",
+        "direction": 1
+      },
+      {
+        "op": "carousel",
+        "direction": -1
+      },
+      {
+        "op": "seats",
+        "direction": 1
+      },
+      {
+        "op": "carousel",
+        "direction": -1
+      },
+      {
+        "op": "seats",
+        "direction": 1
+      }
+    ],
+    "intent": "用三种可读的工具组合整组排序与局部整理，作为终关前的综合题。"
+  },
+  {
+    "number": 20,
+    "id": "star_orbit_finale",
+    "group": "S₈",
+    "group_order": 40320,
+    "shortest": 8,
+    "diameter": 16,
+    "certificate": [
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": -1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": -1
+      }
+    ],
+    "intent": "用不同周期的相交星轮，把借位、局部操作和抵消串成一段收束全篇的解法。"
+  },
+  {
+    "number": 21,
+    "id": "alternating_walk",
+    "group": "D₄",
+    "group_order": 8,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "odd",
+        "direction": 1
+      },
+      {
+        "op": "even",
+        "direction": 1
+      },
+      {
+        "op": "odd",
+        "direction": 1
+      },
+      {
+        "op": "even",
+        "direction": 1
+      }
+    ],
+    "intent": "用两组可见的相邻小桥产生相反方向的两股流，作为新工坊的四步开场。"
+  },
+  {
+    "number": 22,
+    "id": "edge_lantern",
+    "group": "A₄",
+    "group_order": 12,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "first",
+        "direction": 1
+      },
+      {
+        "op": "second",
+        "direction": 1
+      },
+      {
+        "op": "first",
+        "direction": 1
+      }
+    ],
+    "intent": "将颜色从顶点移到棱的中点，以真实三维旋转投影展示同一群的另一种作用。"
+  },
+  {
+    "number": 23,
+    "id": "double_drawer",
+    "group": "S₃ ≀ C₂",
+    "group_order": 72,
+    "shortest": 5,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "cycle",
+        "direction": -1
+      },
+      {
+        "op": "floors",
+        "direction": 1
+      },
+      {
+        "op": "cycle",
+        "direction": -1
+      },
+      {
+        "op": "swap",
+        "direction": 1
+      },
+      {
+        "op": "floors",
+        "direction": 1
+      }
+    ],
+    "intent": "两层分别需要不同的局部操作，整组搬移沿宽弧错开，避免两只抽屉在视觉上穿过彼此。"
+  },
+  {
+    "number": 24,
+    "id": "window_breeze",
+    "group": "SL(2,3)",
+    "group_order": 24,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "horizontal",
+        "direction": 1
+      },
+      {
+        "op": "vertical",
+        "direction": 1
+      },
+      {
+        "op": "horizontal",
+        "direction": 1
+      },
+      {
+        "op": "vertical",
+        "direction": 1
+      }
+    ],
+    "intent": "通过上下、左右相反的滑行，合成整体半转；越过边缘的颜色沿窗外弧线绕回。"
+  },
+  {
+    "number": 25,
+    "id": "turning_window",
+    "group": "SL(2,3)",
+    "group_order": 24,
+    "shortest": 2,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      }
+    ],
+    "intent": "把前一关四次局部操作压缩为两次整体转动，作为相邻关卡的轻巧回报。"
+  },
+  {
+    "number": 26,
+    "id": "seven_star_weave",
+    "group": "GL(3,2)",
+    "group_order": 168,
+    "shortest": 4,
+    "diameter": 12,
+    "certificate": [
+      {
+        "op": "thread",
+        "direction": 1
+      },
+      {
+        "op": "sky",
+        "direction": 1
+      },
+      {
+        "op": "thread",
+        "direction": 1
+      },
+      {
+        "op": "sky",
+        "direction": -1
+      }
+    ],
+    "intent": "用七条可见的线展示受限制的丰富置换，仍由两个简单把手完成一个短小目标。"
+  },
+  {
+    "number": 27,
+    "id": "woven_bookmarks",
+    "group": "C₂ × A₄",
+    "group_order": 24,
+    "shortest": 3,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "inside",
+        "direction": 1
+      },
+      {
+        "op": "inside",
+        "direction": 1
+      },
+      {
+        "op": "inside",
+        "direction": 1
+      }
+    ],
+    "intent": "让两种近似的穿梭在重复后产生不同结果，给星网之后安排一段轻巧的书签小戏法。"
+  },
+  {
+    "number": 28,
+    "id": "wind_echo",
+    "group": "S₃ × S₃",
+    "group_order": 36,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "together",
+        "direction": 1
+      },
+      {
+        "op": "left_mirror",
+        "direction": 1
+      },
+      {
+        "op": "together",
+        "direction": -1
+      },
+      {
+        "op": "left_mirror",
+        "direction": 1
+      }
+    ],
+    "intent": "用局部反射抵消一侧的同步旋转，体验与第 4 关的直接反向联动不同的消除方法。"
+  },
+  {
+    "number": 29,
+    "id": "borrowed_stars",
+    "group": "D₄",
+    "group_order": 8,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "borrow",
+        "direction": 1
+      },
+      {
+        "op": "casket",
+        "direction": 1
+      },
+      {
+        "op": "borrow",
+        "direction": 1
+      },
+      {
+        "op": "casket",
+        "direction": 1
+      }
+    ],
+    "intent": "把一个固定点、一个临时借位区和一个待修区直接分开呈现，让局部控制的作用范围可见。"
+  },
+  {
+    "number": 30,
+    "id": "three_petal_home",
+    "group": "A₇",
+    "group_order": 2520,
+    "shortest": 7,
+    "diameter": 9,
+    "certificate": [
+      {
+        "op": "top",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "top",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "top",
+        "direction": 1
+      }
+    ],
+    "intent": "用三片共享同一插槽的花瓣，把交接、借位和复合局部变化接成第三间的收束题。"
+  },
+  {
+    "number": 31,
+    "id": "long_short_steps",
+    "group": "C₈",
+    "group_order": 8,
+    "shortest": 2,
+    "diameter": 2,
+    "certificate": [
+      {
+        "op": "short",
+        "direction": -1
+      },
+      {
+        "op": "long",
+        "direction": 1
+      }
+    ],
+    "intent": "用两种步长组合出缺少的一格，作为第四间的轻巧开场。"
+  },
+  {
+    "number": 32,
+    "id": "two_clock_difference",
+    "group": "C₄ × C₄",
+    "group_order": 16,
+    "shortest": 3,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "same",
+        "direction": 1
+      },
+      {
+        "op": "same",
+        "direction": 1
+      },
+      {
+        "op": "ratio",
+        "direction": -1
+      }
+    ],
+    "intent": "给同时联动的两只钟加入不同齿比，让抵消由节拍差产生。"
+  },
+  {
+    "number": 33,
+    "id": "double_tooth_ferry",
+    "group": "A₆",
+    "group_order": 360,
+    "shortest": 6,
+    "diameter": 9,
+    "certificate": [
+      {
+        "op": "upper",
+        "direction": -1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "upper",
+        "direction": -1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "upper",
+        "direction": 1
+      },
+      {
+        "op": "lower",
+        "direction": 1
+      }
+    ],
+    "intent": "局部轮转与强制成对换岸产生副作用，玩家需要安排交接并归还它。"
+  },
+  {
+    "number": 34,
+    "id": "three_coves",
+    "group": "A₆",
+    "group_order": 360,
+    "shortest": 3,
+    "diameter": 5,
+    "certificate": [
+      {
+        "op": "second",
+        "direction": 1
+      },
+      {
+        "op": "third",
+        "direction": -1
+      },
+      {
+        "op": "second",
+        "direction": -1
+      }
+    ],
+    "intent": "从双轨改为分散交接点，让同一目标产生另一种空间直觉。"
+  },
+  {
+    "number": 35,
+    "id": "six_direction_vane",
+    "group": "S₄",
+    "group_order": 24,
+    "shortest": 4,
+    "diameter": 5,
+    "certificate": [
+      {
+        "op": "polar",
+        "direction": 1
+      },
+      {
+        "op": "diagonal",
+        "direction": 1
+      },
+      {
+        "op": "polar",
+        "direction": -1
+      },
+      {
+        "op": "diagonal",
+        "direction": 1
+      }
+    ],
+    "intent": "用六向骨架展现旋转群的另一种作用，给平面路线题之后换一个视角。"
+  },
+  {
+    "number": 36,
+    "id": "mirror_window_return",
+    "group": "GL(2,3)",
+    "group_order": 48,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "wind",
+        "direction": -1
+      },
+      {
+        "op": "turn",
+        "direction": -1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      }
+    ],
+    "intent": "新增反射明确改变可达图案，目标需要把镜像和借位组合起来。"
+  },
+  {
+    "number": 37,
+    "id": "two_turning_pages",
+    "group": "C₄ ≀ C₂",
+    "group_order": 32,
+    "shortest": 5,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "swap",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "swap",
+        "direction": 1
+      }
+    ],
+    "intent": "保留整组的朝向记忆，让同一个工具按不同份量完成两项任务。"
+  },
+  {
+    "number": 38,
+    "id": "eight_star_gallery",
+    "group": "AGL(1,8)",
+    "group_order": 56,
+    "shortest": 4,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "bridges",
+        "direction": 1
+      },
+      {
+        "op": "ring",
+        "direction": -1
+      },
+      {
+        "op": "ring",
+        "direction": -1
+      },
+      {
+        "op": "bridges",
+        "direction": 1
+      }
+    ],
+    "intent": "七星轮配合四座联动星桥，借出旋转的固定位置。"
+  },
+  {
+    "number": 39,
+    "id": "seven_day_post",
+    "group": "AGL(1,7)",
+    "group_order": 42,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "post",
+        "direction": -1
+      },
+      {
+        "op": "route",
+        "direction": 1
+      },
+      {
+        "op": "route",
+        "direction": 1
+      },
+      {
+        "op": "route",
+        "direction": 1
+      }
+    ],
+    "intent": "让重复的分流动作合成镜像，保留路线与效果之间的可发现联系。"
+  },
+  {
+    "number": 40,
+    "id": "one_beside_seven",
+    "group": "A₈",
+    "group_order": 20160,
+    "shortest": 8,
+    "diameter": 16,
+    "certificate": [
+      {
+        "op": "wheel",
+        "direction": -1
+      },
+      {
+        "op": "wheel",
+        "direction": -1
+      },
+      {
+        "op": "pocket",
+        "direction": -1
+      },
+      {
+        "op": "wheel",
+        "direction": -1
+      },
+      {
+        "op": "pocket",
+        "direction": -1
+      },
+      {
+        "op": "wheel",
+        "direction": 1
+      },
+      {
+        "op": "wheel",
+        "direction": 1
+      },
+      {
+        "op": "wheel",
+        "direction": 1
+      }
+    ],
+    "intent": "以固定侧袋完成远处的三枚轮换，收束第四间的路线与寄存主题。"
+  },
+  {
+    "number": 41,
+    "id": "reflected_compass",
+    "group": "C₂ ≀ S₃",
+    "group_order": 48,
+    "shortest": 3,
+    "diameter": 5,
+    "certificate": [
+      {
+        "op": "diagonal",
+        "direction": -1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      },
+      {
+        "op": "diagonal",
+        "direction": 1
+      }
+    ],
+    "intent": "用新增镜面实现只有两个位置变化的目标，对照仅能作刚体旋转的风标。"
+  },
+  {
+    "number": 42,
+    "id": "glass_prism",
+    "group": "D₆",
+    "group_order": 12,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "rotate",
+        "direction": 1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      },
+      {
+        "op": "faces",
+        "direction": 1
+      }
+    ],
+    "intent": "通过三棱镜的投影，把朝向、镜像和前后位置分开呈现。"
+  },
+  {
+    "number": 43,
+    "id": "two_sided_windhouse",
+    "group": "D₄ × C₂",
+    "group_order": 16,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      },
+      {
+        "op": "swap",
+        "direction": 1
+      }
+    ],
+    "intent": "在一组同步方向之外再加入独立换面，强调任务的分解。"
+  },
+  {
+    "number": 44,
+    "id": "square_wheel_crossing",
+    "group": "S₆",
+    "group_order": 720,
+    "shortest": 6,
+    "diameter": 7,
+    "certificate": [
+      {
+        "op": "upper",
+        "direction": 1
+      },
+      {
+        "op": "square",
+        "direction": -1
+      },
+      {
+        "op": "lower",
+        "direction": -1
+      },
+      {
+        "op": "square",
+        "direction": -1
+      },
+      {
+        "op": "upper",
+        "direction": 1
+      },
+      {
+        "op": "square",
+        "direction": 1
+      }
+    ],
+    "intent": "用四点工具合成远处的单换位，为下一关改变工具作铺垫。"
+  },
+  {
+    "number": 45,
+    "id": "ferry_alignment",
+    "group": "S₆",
+    "group_order": 720,
+    "shortest": 5,
+    "diameter": 10,
+    "certificate": [
+      {
+        "op": "upper",
+        "direction": 1
+      },
+      {
+        "op": "lower",
+        "direction": 1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "upper",
+        "direction": -1
+      },
+      {
+        "op": "lower",
+        "direction": -1
+      }
+    ],
+    "intent": "将复杂合成换成明确的对齐与交换，提供同群同目标的另一种解题直觉。"
+  },
+  {
+    "number": 46,
+    "id": "moon_turns_flower",
+    "group": "C₃ ⋊ C₄",
+    "group_order": 12,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "flower",
+        "direction": -1
+      },
+      {
+        "op": "moon",
+        "direction": 1
+      },
+      {
+        "op": "moon",
+        "direction": 1
+      }
+    ],
+    "intent": "把周期与镜像联动放在一起，安排一段短小的月光休息题。"
+  },
+  {
+    "number": 47,
+    "id": "folded_star_grid",
+    "group": "AGL(3,2)",
+    "group_order": 1344,
+    "shortest": 4,
+    "diameter": 14,
+    "certificate": [
+      {
+        "op": "sky",
+        "direction": -1
+      },
+      {
+        "op": "depth",
+        "direction": 1
+      },
+      {
+        "op": "sky",
+        "direction": 1
+      },
+      {
+        "op": "gate",
+        "direction": 1
+      }
+    ],
+    "intent": "将整体变化与局部变化相消，制造没有直接提供的另一半工具。"
+  },
+  {
+    "number": 48,
+    "id": "far_shore_guests",
+    "group": "S₈",
+    "group_order": 40320,
+    "shortest": 9,
+    "diameter": 16,
+    "certificate": [
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      }
+    ],
+    "intent": "把两次独立对齐完整展开，准备下一关同步工具的回报。"
+  },
+  {
+    "number": 49,
+    "id": "shared_shore_wind",
+    "group": "C₂ ≀ C₄",
+    "group_order": 64,
+    "shortest": 5,
+    "diameter": 8,
+    "certificate": [
+      {
+        "op": "both",
+        "direction": 1
+      },
+      {
+        "op": "both",
+        "direction": 1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "both",
+        "direction": 1
+      },
+      {
+        "op": "both",
+        "direction": 1
+      }
+    ],
+    "intent": "展示较少的自由也可能更适合具体目标，用同步操作兑现前一关的长行程。"
+  },
+  {
+    "number": 50,
+    "id": "four_leaf_archive",
+    "group": "A₈",
+    "group_order": 20160,
+    "shortest": 6,
+    "diameter": 9,
+    "certificate": [
+      {
+        "op": "northeast",
+        "direction": -1
+      },
+      {
+        "op": "southeast",
+        "direction": -1
+      },
+      {
+        "op": "northwest",
+        "direction": -1
+      },
+      {
+        "op": "northeast",
+        "direction": -1
+      },
+      {
+        "op": "southwest",
+        "direction": -1
+      },
+      {
+        "op": "southeast",
+        "direction": -1
+      }
+    ],
+    "intent": "用四个分散交接点收束五间工坊，鼓励把已有的局部工具连成整体路线。"
+  },
+  {
+    "number": 51,
+    "id": "five_beat_echo",
+    "group": "C₁₀",
+    "group_order": 10,
+    "shortest": 2,
+    "diameter": 2,
+    "certificate": [
+      {
+        "op": "two",
+        "direction": -1
+      },
+      {
+        "op": "three",
+        "direction": 1
+      }
+    ],
+    "intent": "两拍的小铃与五拍的花，想要一起向前走一拍。"
+  },
+  {
+    "number": 52,
+    "id": "twelve_hour_duet",
+    "group": "C₁₂",
+    "group_order": 12,
+    "shortest": 2,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "same",
+        "direction": 1
+      },
+      {
+        "op": "opposite",
+        "direction": 1
+      }
+    ],
+    "intent": "花已经开对了，时钟却差半圈。让两阵风替它独自走完。"
+  },
+  {
+    "number": 53,
+    "id": "bell_borrows_quarter",
+    "group": "C₂ × C₄",
+    "group_order": 8,
+    "shortest": 2,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "both",
+        "direction": -1
+      },
+      {
+        "op": "bell",
+        "direction": 1
+      }
+    ],
+    "intent": "时钟只差一格。小铃会跟着动，但也有自己的归途。"
+  },
+  {
+    "number": 54,
+    "id": "three_linked_bells",
+    "group": "C₂ × C₂ × C₂",
+    "group_order": 8,
+    "shortest": 2,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "east",
+        "direction": 1
+      },
+      {
+        "op": "all",
+        "direction": 1
+      }
+    ],
+    "intent": "只有最左边错了。把总会一起响的铃，拼成一声独奏。"
+  },
+  {
+    "number": 55,
+    "id": "two_fast_windows",
+    "group": "C₄ × C₄",
+    "group_order": 16,
+    "shortest": 3,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "left_fast",
+        "direction": 1
+      },
+      {
+        "op": "left_fast",
+        "direction": 1
+      },
+      {
+        "op": "right_fast",
+        "direction": -1
+      }
+    ],
+    "intent": "快的走半圈，慢的走一格。让右边归还，左边独自前行。"
+  },
+  {
+    "number": 56,
+    "id": "mirror_keeps_flower",
+    "group": "S₃ × C₃",
+    "group_order": 18,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "both",
+        "direction": -1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      },
+      {
+        "op": "both",
+        "direction": -1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      }
+    ],
+    "intent": "右花想走一格，左花却会跟着走。让左侧镜面替它消掉这阵风。"
+  },
+  {
+    "number": 57,
+    "id": "season_two_bells",
+    "group": "C₄ × C₂ × C₂",
+    "group_order": 16,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "first",
+        "direction": 1
+      },
+      {
+        "op": "second",
+        "direction": 1
+      },
+      {
+        "op": "all",
+        "direction": -1
+      }
+    ],
+    "intent": "四季想前进一格，两盏铃都想留下。借三种联动来安排。"
+  },
+  {
+    "number": 58,
+    "id": "flower_waits_fifth",
+    "group": "C₁₅",
+    "group_order": 15,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "same",
+        "direction": 1
+      },
+      {
+        "op": "same",
+        "direction": 1
+      },
+      {
+        "op": "apart",
+        "direction": 1
+      }
+    ],
+    "intent": "三瓣花绕回来时，五瓣花恰好要多走一格。"
+  },
+  {
+    "number": 59,
+    "id": "two_mirrors_one_bell",
+    "group": "D₄ × C₂",
+    "group_order": 16,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "first",
+        "direction": 1
+      },
+      {
+        "op": "second",
+        "direction": 1
+      }
+    ],
+    "intent": "只把右边的小铃翻过来。两面镜留下的半圈，也记得收回。"
+  },
+  {
+    "number": 60,
+    "id": "three_voice_concert",
+    "group": "C₂ × C₃ × C₃",
+    "group_order": 18,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": -1
+      }
+    ],
+    "intent": "两朵花各差一格，小铃也要换位。让长短不同的回程合在一起。"
+  },
+  {
+    "number": 61,
+    "id": "seven_mirror_gallery",
+    "group": "D₇",
+    "group_order": 14,
+    "shortest": 4,
+    "diameter": 7,
+    "certificate": [
+      {
+        "op": "second",
+        "direction": 1
+      },
+      {
+        "op": "first",
+        "direction": 1
+      },
+      {
+        "op": "second",
+        "direction": 1
+      },
+      {
+        "op": "first",
+        "direction": 1
+      }
+    ],
+    "intent": "这里只能照镜，却要让整个图案走过两格。"
+  },
+  {
+    "number": 62,
+    "id": "octagonal_lamp",
+    "group": "D₈",
+    "group_order": 16,
+    "shortest": 3,
+    "diameter": 5,
+    "certificate": [
+      {
+        "op": "stride",
+        "direction": 1
+      },
+      {
+        "op": "stride",
+        "direction": 1
+      },
+      {
+        "op": "stride",
+        "direction": 1
+      }
+    ],
+    "intent": "灯罩只差一格，把手却一次跨三格。看看绕圈能借来多少。"
+  },
+  {
+    "number": 63,
+    "id": "octagonal_two_mirrors",
+    "group": "D₈",
+    "group_order": 16,
+    "shortest": 2,
+    "diameter": 8,
+    "certificate": [
+      {
+        "op": "first",
+        "direction": 1
+      },
+      {
+        "op": "second",
+        "direction": 1
+      }
+    ],
+    "intent": "还是那一格。这次，让两面挨近的镜子替灯罩转过去。"
+  },
+  {
+    "number": 64,
+    "id": "threefold_scale",
+    "group": "C₈ ⋊₍₃₎ C₂",
+    "group_order": 16,
+    "shortest": 2,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "fold",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": -1
+      }
+    ],
+    "intent": "一格小步经过折路之后，会变成三格。借这条暗道还原星盘。"
+  },
+  {
+    "number": 65,
+    "id": "odd_marks_return",
+    "group": "C₈ ⋊₍₅₎ C₂",
+    "group_order": 16,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      }
+    ],
+    "intent": "这条折路只换走一半刻度。把它借到另一半，拼出整圈半转。"
+  },
+  {
+    "number": 66,
+    "id": "two_folds_make_mirror",
+    "group": "C₈ ⋊ (C₂ × C₂)",
+    "group_order": 32,
+    "shortest": 2,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "fold",
+        "direction": 1
+      },
+      {
+        "op": "five",
+        "direction": 1
+      }
+    ],
+    "intent": "没有镜面把手，却要把环上的次序翻过来。"
+  },
+  {
+    "number": 67,
+    "id": "paired_pages_same_wind",
+    "group": "C₄ × C₂",
+    "group_order": 8,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "both",
+        "direction": 1
+      },
+      {
+        "op": "both",
+        "direction": 1
+      },
+      {
+        "op": "pages",
+        "direction": 1
+      }
+    ],
+    "intent": "两页需要一起半转，还要交换位置。把两件事分开安排。"
+  },
+  {
+    "number": 68,
+    "id": "cross_mirror_pages",
+    "group": "(C₂ × C₂) ≀ C₂",
+    "group_order": 32,
+    "shortest": 5,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "across",
+        "direction": 1
+      },
+      {
+        "op": "pages",
+        "direction": 1
+      },
+      {
+        "op": "across",
+        "direction": 1
+      },
+      {
+        "op": "down",
+        "direction": 1
+      },
+      {
+        "op": "pages",
+        "direction": 1
+      }
+    ],
+    "intent": "左页要横翻，右页要半转。两面镜都只装在左边。"
+  },
+  {
+    "number": 69,
+    "id": "mirror_page_windmill",
+    "group": "D₄ ≀ C₂",
+    "group_order": 128,
+    "shortest": 4,
+    "diameter": 8,
+    "certificate": [
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "pages",
+        "direction": 1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      },
+      {
+        "op": "pages",
+        "direction": 1
+      }
+    ],
+    "intent": "左页要转一格，右页要照镜。把同一套工具借给两页。"
+  },
+  {
+    "number": 70,
+    "id": "page_corner_scissors",
+    "group": "S₄ ≀ C₂",
+    "group_order": 1152,
+    "shortest": 8,
+    "diameter": 14,
+    "certificate": [
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "pages",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "cut",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "cut",
+        "direction": 1
+      },
+      {
+        "op": "pages",
+        "direction": 1
+      }
+    ],
+    "intent": "还是两页的同一个目标。对角镜换成了只能剪相邻页角的工具。"
+  },
+  {
+    "number": 71,
+    "id": "two_garden_gates",
+    "group": "C₂ × C₂",
+    "group_order": 4,
+    "shortest": 2,
+    "diameter": 2,
+    "certificate": [
+      {
+        "op": "side",
+        "direction": 1
+      },
+      {
+        "op": "rise",
+        "direction": 1
+      }
+    ],
+    "intent": "四位客人都去了对角。两扇小门，足够把他们送回来。"
+  },
+  {
+    "number": 72,
+    "id": "neighbor_room_bells",
+    "group": "C₂³ ⋊ C₄",
+    "group_order": 32,
+    "shortest": 6,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "pair",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "pair",
+        "direction": 1
+      }
+    ],
+    "intent": "四间屋都要换座，但铃一次只照顾相邻两间。沿园路把它借出去。"
+  },
+  {
+    "number": 73,
+    "id": "opposite_room_bells",
+    "group": "(C₂ × C₂) ⋊ C₄",
+    "group_order": 16,
+    "shortest": 4,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "pair",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": -1
+      },
+      {
+        "op": "pair",
+        "direction": 1
+      }
+    ],
+    "intent": "还是四间屋。这次铃照顾相对的两间，一次转向就能接上余下两间。"
+  },
+  {
+    "number": 74,
+    "id": "upstairs_downstairs",
+    "group": "D₄ ≀ C₂",
+    "group_order": 128,
+    "shortest": 5,
+    "diameter": 10,
+    "certificate": [
+      {
+        "op": "crown",
+        "direction": 1
+      },
+      {
+        "op": "branch",
+        "direction": 1
+      },
+      {
+        "op": "twig",
+        "direction": 1
+      },
+      {
+        "op": "branch",
+        "direction": 1
+      },
+      {
+        "op": "crown",
+        "direction": 1
+      }
+    ],
+    "intent": "工具在最左端，想换的却是最右端一对。借大枝，再借小枝。"
+  },
+  {
+    "number": 75,
+    "id": "four_rooms_everywhere",
+    "group": "C₂ ≀ S₄",
+    "group_order": 384,
+    "shortest": 6,
+    "diameter": 10,
+    "certificate": [
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "bell",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "bell",
+        "direction": 1
+      }
+    ],
+    "intent": "相对两间需要换座。房间能沿路走，也能临时换站。"
+  },
+  {
+    "number": 76,
+    "id": "paired_doors",
+    "group": "C₂³ ⋊ S₄",
+    "group_order": 192,
+    "shortest": 4,
+    "diameter": 8,
+    "certificate": [
+      {
+        "op": "tour",
+        "direction": -1
+      },
+      {
+        "op": "pair",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "pair",
+        "direction": 1
+      }
+    ],
+    "intent": "还是相对的两间。这次铃总成双响，把它们先并排送来。"
+  },
+  {
+    "number": 77,
+    "id": "alternating_shuttles",
+    "group": "S₇",
+    "group_order": 5040,
+    "shortest": 5,
+    "diameter": 22,
+    "certificate": [
+      {
+        "op": "odd",
+        "direction": 1
+      },
+      {
+        "op": "even",
+        "direction": 1
+      },
+      {
+        "op": "cut",
+        "direction": 1
+      },
+      {
+        "op": "even",
+        "direction": 1
+      },
+      {
+        "op": "odd",
+        "direction": 1
+      }
+    ],
+    "intent": "隔一站的两位客人想交换，接驳车却总带动三座桥。把其他旅客送回原站。"
+  },
+  {
+    "number": 78,
+    "id": "seven_stop_loop",
+    "group": "S₇",
+    "group_order": 5040,
+    "shortest": 7,
+    "diameter": 21,
+    "certificate": [
+      {
+        "op": "route",
+        "direction": -1
+      },
+      {
+        "op": "cut",
+        "direction": 1
+      },
+      {
+        "op": "route",
+        "direction": -1
+      },
+      {
+        "op": "cut",
+        "direction": 1
+      },
+      {
+        "op": "route",
+        "direction": 1
+      },
+      {
+        "op": "cut",
+        "direction": 1
+      },
+      {
+        "op": "route",
+        "direction": 1
+      }
+    ],
+    "intent": "还是隔一站的两位客人，接驳车换成了一条完整环线。"
+  },
+  {
+    "number": 79,
+    "id": "three_leaves_one_quarter",
+    "group": "A₄ × C₄",
+    "group_order": 48,
+    "shortest": 3,
+    "diameter": 4,
+    "certificate": [
+      {
+        "op": "linked",
+        "direction": -1
+      },
+      {
+        "op": "linked",
+        "direction": -1
+      },
+      {
+        "op": "linked",
+        "direction": -1
+      }
+    ],
+    "intent": "右边的钟差一格，左边的花想原样留下。让三叶先绕满一圈。"
+  },
+  {
+    "number": 80,
+    "id": "two_gardens_return",
+    "group": "S₄ × S₄",
+    "group_order": 576,
+    "shortest": 7,
+    "diameter": 9,
+    "certificate": [
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": -1
+      },
+      {
+        "op": "cut",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      }
+    ],
+    "intent": "两园的错位在不同位置，剪刀却总同时剪两边。让两边分别对齐。"
+  },
+  {
+    "number": 81,
+    "id": "five_stars_far_point",
+    "group": "A₅",
+    "group_order": 60,
+    "shortest": 5,
+    "diameter": 9,
+    "certificate": [
+      {
+        "op": "orbit",
+        "direction": 1
+      },
+      {
+        "op": "orbit",
+        "direction": 1
+      },
+      {
+        "op": "far",
+        "direction": 1
+      },
+      {
+        "op": "orbit",
+        "direction": -1
+      },
+      {
+        "op": "orbit",
+        "direction": -1
+      }
+    ],
+    "intent": "远点与星轮牵着两条桥。把整组换位借到另一段星路上。"
+  },
+  {
+    "number": 82,
+    "id": "far_point_new_measure",
+    "group": "S₅",
+    "group_order": 120,
+    "shortest": 2,
+    "diameter": 5,
+    "certificate": [
+      {
+        "op": "orbit",
+        "direction": -1
+      },
+      {
+        "op": "measure",
+        "direction": -1
+      }
+    ],
+    "intent": "新星尺只留下两处不动。先借一格星轮，让它接住另一枚外星。"
+  },
+  {
+    "number": 83,
+    "id": "seven_stars_far_voyage",
+    "group": "PSL(2,7)",
+    "group_order": 168,
+    "shortest": 7,
+    "diameter": 10,
+    "certificate": [
+      {
+        "op": "orbit",
+        "direction": -1
+      },
+      {
+        "op": "orbit",
+        "direction": -1
+      },
+      {
+        "op": "far",
+        "direction": 1
+      },
+      {
+        "op": "orbit",
+        "direction": 1
+      },
+      {
+        "op": "orbit",
+        "direction": 1
+      },
+      {
+        "op": "far",
+        "direction": 1
+      },
+      {
+        "op": "orbit",
+        "direction": -1
+      }
+    ],
+    "intent": "四座桥会一起动。把星轮与远点交替借来，接起两条三站路线。"
+  },
+  {
+    "number": 84,
+    "id": "voyage_second_measure",
+    "group": "PSL(2,7)",
+    "group_order": 168,
+    "shortest": 4,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "orbit",
+        "direction": 1
+      },
+      {
+        "op": "far",
+        "direction": 1
+      },
+      {
+        "op": "orbit",
+        "direction": 1
+      },
+      {
+        "op": "measure",
+        "direction": 1
+      }
+    ],
+    "intent": "还是同一张星图。多出的一把尺，恰好能织出想要的两路轮换。"
+  },
+  {
+    "number": 85,
+    "id": "eight_star_palindrome",
+    "group": "AΓL(1,8)",
+    "group_order": 168,
+    "shortest": 4,
+    "diameter": 5,
+    "certificate": [
+      {
+        "op": "bridges",
+        "direction": 1
+      },
+      {
+        "op": "ring",
+        "direction": -1
+      },
+      {
+        "op": "bridges",
+        "direction": 1
+      },
+      {
+        "op": "echo",
+        "direction": -1
+      }
+    ],
+    "intent": "新的回文路线留下两枚星。用星桥借来另一对，再让回文经过。"
+  },
+  {
+    "number": 86,
+    "id": "seven_star_three_shears",
+    "group": "GL(3,2)",
+    "group_order": 168,
+    "shortest": 4,
+    "diameter": 8,
+    "certificate": [
+      {
+        "op": "first",
+        "direction": 1
+      },
+      {
+        "op": "second",
+        "direction": 1
+      },
+      {
+        "op": "first",
+        "direction": 1
+      },
+      {
+        "op": "second",
+        "direction": 1
+      }
+    ],
+    "intent": "想拨的那条线没有把手。借两条现成的线，再把多余的变化收回来。"
+  },
+  {
+    "number": 87,
+    "id": "diagonal_mirror_window",
+    "group": "GL(2,3)",
+    "group_order": 48,
+    "shortest": 3,
+    "diameter": 8,
+    "certificate": [
+      {
+        "op": "wind",
+        "direction": 1
+      },
+      {
+        "op": "diagonal",
+        "direction": 1
+      },
+      {
+        "op": "wind",
+        "direction": -1
+      }
+    ],
+    "intent": "熟悉的窗又换了把手。借斜镜，把横风送去另一个方向。"
+  },
+  {
+    "number": 88,
+    "id": "two_handles_star_cube",
+    "group": "AGL(3,2)",
+    "group_order": 1344,
+    "shortest": 5,
+    "diameter": 12,
+    "certificate": [
+      {
+        "op": "sky",
+        "direction": -1
+      },
+      {
+        "op": "gate",
+        "direction": 1
+      },
+      {
+        "op": "gate",
+        "direction": 1
+      },
+      {
+        "op": "sky",
+        "direction": 1
+      },
+      {
+        "op": "gate",
+        "direction": 1
+      }
+    ],
+    "intent": "折门一次会带走半边，两次却能只留下一个完整方向。借来上半边的工具。"
+  },
+  {
+    "number": 89,
+    "id": "one_gate_in_sky",
+    "group": "S₈",
+    "group_order": 40320,
+    "shortest": 6,
+    "diameter": 12,
+    "certificate": [
+      {
+        "op": "sky",
+        "direction": -1
+      },
+      {
+        "op": "gate",
+        "direction": 1
+      },
+      {
+        "op": "gate",
+        "direction": 1
+      },
+      {
+        "op": "sky",
+        "direction": 1
+      },
+      {
+        "op": "single",
+        "direction": 1
+      },
+      {
+        "op": "gate",
+        "direction": 1
+      }
+    ],
+    "intent": "小门只接住一个角落，错位却在相反的角落。把那一小对借过来。"
+  },
+  {
+    "number": 90,
+    "id": "double_star_knot",
+    "group": "A₈",
+    "group_order": 20160,
+    "shortest": 8,
+    "diameter": 13,
+    "certificate": [
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": 1
+      },
+      {
+        "op": "right",
+        "direction": -1
+      },
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "right",
+        "direction": 1
+      },
+      {
+        "op": "left",
+        "direction": -1
+      },
+      {
+        "op": "right",
+        "direction": -1
+      }
+    ],
+    "intent": "两颗五星轮共用两枚颜色。让两阵风经过，再收回多余的脚步。"
+  },
+  {
+    "number": 91,
+    "id": "circular_letter_route",
+    "group": "S₅",
+    "group_order": 120,
+    "shortest": 5,
+    "diameter": 10,
+    "certificate": [
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": -1
+      },
+      {
+        "op": "turn",
+        "direction": -1
+      }
+    ],
+    "intent": "三封信要依次换一个收件处，另外两封最后仍要留下。"
+  },
+  {
+    "number": 92,
+    "id": "four_route_post",
+    "group": "S₅",
+    "group_order": 120,
+    "shortest": 4,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "north",
+        "direction": 1
+      },
+      {
+        "op": "south",
+        "direction": 1
+      },
+      {
+        "op": "east",
+        "direction": 1
+      },
+      {
+        "op": "north",
+        "direction": 1
+      }
+    ],
+    "intent": "还是那三封信。这次借邮亭暂存一封，把交接连成一段。"
+  },
+  {
+    "number": 93,
+    "id": "two_three_leaf_letters",
+    "group": "A₄ × A₄",
+    "group_order": 144,
+    "shortest": 6,
+    "diameter": 6,
+    "certificate": [
+      {
+        "op": "la",
+        "direction": 1
+      },
+      {
+        "op": "lb",
+        "direction": -1
+      },
+      {
+        "op": "la",
+        "direction": 1
+      },
+      {
+        "op": "ra",
+        "direction": 1
+      },
+      {
+        "op": "rb",
+        "direction": -1
+      },
+      {
+        "op": "ra",
+        "direction": 1
+      }
+    ],
+    "intent": "两张笺都要交换两对颜色。先把一张写好，再照顾另一张。"
+  },
+  {
+    "number": 94,
+    "id": "joined_three_leaf_letters",
+    "group": "A₄",
+    "group_order": 12,
+    "shortest": 3,
+    "diameter": 3,
+    "certificate": [
+      {
+        "op": "upper",
+        "direction": 1
+      },
+      {
+        "op": "lower",
+        "direction": -1
+      },
+      {
+        "op": "upper",
+        "direction": 1
+      }
+    ],
+    "intent": "同样的两张笺，现在可以连笔写。让同一段动作同时照顾两页。"
+  },
+  {
+    "number": 95,
+    "id": "four_room_return_song",
+    "group": "C₂ ≀ D₄",
+    "group_order": 128,
+    "shortest": 6,
+    "diameter": 9,
+    "certificate": [
+      {
+        "op": "tour",
+        "direction": -1
+      },
+      {
+        "op": "mirror",
+        "direction": 1
+      },
+      {
+        "op": "bell",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "tour",
+        "direction": 1
+      },
+      {
+        "op": "bell",
+        "direction": 1
+      }
+    ],
+    "intent": "房间的位置和屋内座位都变了。沿路修两间，再借镜面收好朝向。"
+  },
+  {
+    "number": 96,
+    "id": "seven_color_relay",
+    "group": "A₇",
+    "group_order": 2520,
+    "shortest": 3,
+    "diameter": 11,
+    "certificate": [
+      {
+        "op": "first",
+        "direction": -1
+      },
+      {
+        "op": "middle",
+        "direction": -1
+      },
+      {
+        "op": "last",
+        "direction": -1
+      }
+    ],
+    "intent": "每片叶子只接三枚。让交接顺着一条路，带动七种颜色。"
+  },
+  {
+    "number": 97,
+    "id": "seven_color_long_relay",
+    "group": "A₇",
+    "group_order": 2520,
+    "shortest": 2,
+    "diameter": 14,
+    "certificate": [
+      {
+        "op": "long",
+        "direction": -1
+      },
+      {
+        "op": "last",
+        "direction": -1
+      }
+    ],
+    "intent": "同样的七色归途，前两段交接合成了一片长叶。"
+  },
+  {
+    "number": 98,
+    "id": "eight_gate_journey",
+    "group": "S₈",
+    "group_order": 40320,
+    "shortest": 10,
+    "diameter": 28,
+    "certificate": [
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      },
+      {
+        "op": "turn",
+        "direction": 1
+      }
+    ],
+    "intent": "两处相邻座位都想交换。沿同一趟环行顺路处理，最后回到原朝向。"
+  },
+  {
+    "number": 99,
+    "id": "eight_gate_shortcut",
+    "group": "S₈",
+    "group_order": 40320,
+    "shortest": 6,
+    "diameter": 25,
+    "certificate": [
+      {
+        "op": "double",
+        "direction": 1
+      },
+      {
+        "op": "double",
+        "direction": 1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "double",
+        "direction": 1
+      },
+      {
+        "op": "bridge",
+        "direction": 1
+      },
+      {
+        "op": "double",
+        "direction": 1
+      }
+    ],
+    "intent": "还是同一趟环行。这次把两格路收成一枚把手，走得更轻快些。"
+  },
+  {
+    "number": 100,
+    "id": "hundredth_homecoming",
+    "group": "A₈",
+    "group_order": 20160,
+    "shortest": 8,
+    "diameter": 9,
+    "certificate": [
+      {
+        "op": "dawn",
+        "direction": 1
+      },
+      {
+        "op": "night",
+        "direction": 1
+      },
+      {
+        "op": "dawn",
+        "direction": -1
+      },
+      {
+        "op": "noon",
+        "direction": 1
+      },
+      {
+        "op": "dusk",
+        "direction": -1
+      },
+      {
+        "op": "noon",
+        "direction": 1
+      },
+      {
+        "op": "dusk",
+        "direction": 1
+      },
+      {
+        "op": "night",
+        "direction": 1
+      }
+    ],
+    "intent": "四片叶子牵着八种颜色。借过的位置、接过的路，这一次都收好。"
+  }
+]

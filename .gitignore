@@ -1,0 +1,14 @@
+.godot/
+.tools/
+build/*
+!build/.gitkeep
+test-results/*
+!test-results/.gitkeep
+*.tmp
+__pycache__/
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

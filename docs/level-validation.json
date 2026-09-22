@@ -1,0 +1,97 @@
+[
+  {
+    "level": 1,
+    "id": "first_click",
+    "shortest": 1,
+    "certificate": [
+      "A+"
+    ],
+    "search_states": 3
+  },
+  {
+    "level": 2,
+    "id": "other_way",
+    "shortest": 1,
+    "certificate": [
+      "A-"
+    ],
+    "search_states": 4
+  },
+  {
+    "level": 3,
+    "id": "meeting",
+    "shortest": 2,
+    "certificate": [
+      "B-",
+      "A-"
+    ],
+    "search_states": 37
+  },
+  {
+    "level": 4,
+    "id": "borrow_path",
+    "shortest": 3,
+    "certificate": [
+      "A+",
+      "B-",
+      "A-"
+    ],
+    "search_states": 54
+  },
+  {
+    "level": 5,
+    "id": "only_three",
+    "shortest": 4,
+    "certificate": [
+      "B+",
+      "A+",
+      "B-",
+      "A-"
+    ],
+    "search_states": 182
+  },
+  {
+    "level": 6,
+    "id": "move_the_trick",
+    "shortest": 6,
+    "certificate": [
+      "A+",
+      "B+",
+      "A+",
+      "B-",
+      "A+",
+      "A+"
+    ],
+    "search_states": 670
+  },
+  {
+    "level": 7,
+    "id": "same_shape",
+    "shortest": 6,
+    "certificate": [
+      "A-",
+      "B+",
+      "A+",
+      "B+",
+      "B+",
+      "A-"
+    ],
+    "search_states": 206
+  },
+  {
+    "level": 8,
+    "id": "last_light",
+    "shortest": 8,
+    "certificate": [
+      "B+",
+      "A+",
+      "B-",
+      "A+",
+      "B+",
+      "A+",
+      "A+",
+      "B-"
+    ],
+    "search_states": 3485
+  }
+]

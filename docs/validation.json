@@ -1,0 +1,22 @@
+{
+  "version": "phase1-0.1.0",
+  "godot": "4.7.2.stable",
+  "logic_assertions": 265,
+  "interaction_assertions": 38,
+  "human_playtest": "not_yet_collected",
+  "web": {
+    "passed": true,
+    "levels": 8,
+    "errors": []
+  },
+  "artifacts": {
+    "build/BorrowedMoves-windows.zip": {
+      "bytes": 38293554,
+      "sha256": "b75f830ef5294debed3bde9fd2b152795bc2c957c913606cc155361cfcfdb6f7"
+    },
+    "build/BorrowedMoves-web.zip": {
+      "bytes": 10451454,
+      "sha256": "deeda327bee3f50ccbd3d40625c808b97047d7b7093c6ea7e2f78fdd1592005d"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#263e34">
+  <title>借位工坊 · Borrowed Moves</title>
+  <style>
+    *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#eeede3}
+    body{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#263e34;touch-action:none}
+    #canvas{display:block;width:100%;height:100%;outline:none}
+    #loading{position:fixed;inset:0;display:grid;place-content:center;justify-items:center;text-align:center;background:#eeede3;z-index:2;padding:32px}
+    .mark{width:100px;height:72px;position:relative;margin-bottom:26px}
+    .mark:before,.mark:after{content:"";position:absolute;top:8px;width:60px;height:60px;border:4px solid #639477;border-radius:50%}
+    .mark:before{left:0}.mark:after{right:0;border-color:#bb985b}
+    h1{font-size:30px;font-weight:500;letter-spacing:5px;margin:0 0 12px}p{font-size:14px;color:#798573;line-height:1.8;margin:8px 0}
+    progress{width:240px;height:6px;margin:24px 0;accent-color:#396954}
+    #error{max-width:560px;white-space:pre-wrap;color:#8c4c39}#retry{padding:12px 28px;background:#396954;color:#fff;border:0;border-radius:10px;font:inherit;cursor:pointer}
+  </style>
+  $GODOT_HEAD_INCLUDE
+</head>
+<body>
+  <canvas id="canvas" tabindex="0" aria-label="借位工坊机关解谜游戏。左环 A 和 D，右环方向键，Z 撤销，H 提示。">请使用支持画布的浏览器。</canvas>
+  <div id="loading" role="status"><div class="mark" aria-hidden="true"></div><h1>借位工坊</h1><p>两枚把手，一点巧思。</p><progress id="progress"></progress><p id="message">正在打开第一间工坊…</p><p id="error" hidden></p><button id="retry" hidden onclick="location.reload()">重新打开</button></div>
+  <noscript>请启用 JavaScript 后打开工坊。</noscript>
+  <script src="$GODOT_URL"></script>
+  <script>
+    const config=$GODOT_CONFIG;
+    const engine=new Engine(config);
+    const progress=document.getElementById('progress');
+    function failure(error){
+      console.error(error);
+      document.getElementById('message').textContent='工坊暂时没能打开。可以重新尝试，或使用 Windows 试玩版。';
+      const notice=document.getElementById('error');notice.hidden=false;notice.textContent=String(error.message||error);
+      progress.hidden=true;document.getElementById('retry').hidden=false;
+    }
+    const missing=Engine.getMissingFeatures({threads:$GODOT_THREADS_ENABLED});
+    if(missing.length){failure(new Error('浏览器缺少：'+missing.join(', ')));}
+    else engine.startGame({onProgress(current,total){if(total>0){progress.value=current;progress.max=total;}}}).then(()=>{
+      document.getElementById('loading').remove();document.getElementById('canvas').focus();
+    }).catch(failure);
+  </script>
+</body>
+</html>
